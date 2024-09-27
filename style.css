@@ -1,0 +1,30 @@
+*{ /*instälningar för alltihop*/
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10;
+}
+
+.listdel{ /*sektionen för listan*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+ul{ /*själva listan*/
+    padding: 0;
+    margin: 0;
+}
+
+#laggTill{ /*fältet där man skriver in ens uppgifter*/
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#button{ /*knappen*/
+    border-radius: 50%;
+    border: 0;
+    font-size: 25px;
+    background-color: rgb(136, 179, 136);
+    padding: 0px 5px 0px 5px;
+}
