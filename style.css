@@ -4,7 +4,7 @@
     font-weight: 10;
 }
 
-h1{
+h1{ /*bättre placering på rubriken*/
     padding-left: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -16,10 +16,11 @@ h1{
     align-items: flex-start;
 }
 
+/*behvös inte längre eftersom jag inte längre har en lista inlagt på html
 .listan{
     list-style: none;
 }
-
+*/
 
 .checked{/*stycker texten när man checkar för*/
     text-decoration: line-through;
@@ -39,6 +40,13 @@ h1{
     padding: 0px 5px 0px 5px;
 }
 
-.nedre{
+.nedre{ /*input och knappen*/
     padding-left: 20px;
+}
+
+
+input[type="checkbox"]{ /*får rutan störreoch placering*/
+    transform: scale(1.5); 
+    margin-right: 15px;
+    margin-left: -15px;
 }
