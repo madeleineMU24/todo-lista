@@ -14,6 +14,7 @@ h1{ /*bättre placering på rubriken*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 1.2rem;
 }
 
 /*behvös inte längre eftersom jag inte längre har en lista inlagt på html
@@ -47,7 +48,7 @@ h1{ /*bättre placering på rubriken*/
 
 
 input[type="checkbox"]{ /*får rutan störreoch placering*/
-    transform: scale(1.5); 
+    transform: scale(2); 
     margin-right: 15px;
     margin-left: -15px;
     margin-top: 15px;
