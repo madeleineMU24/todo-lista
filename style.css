@@ -1,30 +1,44 @@
 *{ /*instälningar för alltihop*/
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     font-weight: 10;
+}
+
+h1{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .listdel{ /*sektionen för listan*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-}
-ul{ /*själva listan*/
-    padding: 0;
-    margin: 0;
 }
 
-#laggTill{ /*fältet där man skriver in ens uppgifter*/
+.listan{
+    list-style: none;
+}
+
+
+.checked{/*stycker texten när man checkar för*/
+    text-decoration: line-through;
+}
+
+#inputBox{ /*fältet där man skriver in ens uppgifter*/
     border-radius: 10px;
     border: 1px solid;
     padding: 5px;
 }
 
 #button{ /*knappen*/
-    border-radius: 50%;
+  border-radius: 50%;
     border: 0;
     font-size: 25px;
-    background-color: rgb(136, 179, 136);
+    background-color: rgb(140, 207, 140);
     padding: 0px 5px 0px 5px;
+}
+
+.nedre{
+    padding-left: 20px;
 }
