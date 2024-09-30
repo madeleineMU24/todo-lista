@@ -24,6 +24,7 @@ h1{ /*bättre placering på rubriken*/
 
 .checked{/*stycker texten när man checkar för*/
     text-decoration: line-through;
+
 }
 
 #inputBox{ /*fältet där man skriver in ens uppgifter*/
@@ -49,4 +50,5 @@ input[type="checkbox"]{ /*får rutan störreoch placering*/
     transform: scale(1.5); 
     margin-right: 15px;
     margin-left: -15px;
+    margin-top: 15px;
 }
