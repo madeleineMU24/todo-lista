@@ -8,12 +8,12 @@ function addCheckBoxEventListerner(checkBox) { //funtionen som lyssnar på klick
     });
 }
 
-/*checkBoxes.forEach(checkBox => {
+/*Behövs inte längre
+checkBoxes.forEach(checkBox => {
     checkBox.addEventListener('click', () => { //ett event för klickandet
         checkBox.parentElement.classList.toggle('checked');
     })
-})
-*/
+})*/
 
 button.addEventListener('click', () =>{ //När man klickar på knappen körs funktionen
     const uppgiftText = inputBox.value/*.trim()*/; //trim gör att man inte kan skriva bara space tillexempel
